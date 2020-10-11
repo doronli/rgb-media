@@ -215,7 +215,6 @@ article .posted-date {
     z-index: 9999999;
     height: 100vh;
     width: 100%;
-    background-color: blue;
     display: none;
 }
 
@@ -225,7 +224,13 @@ article .posted-date {
     padding-left: 21px;
     display: flex;
 }
-
+#navbar header .icon-Hartman-icons_Search{
+    color: #FFFFFF;
+    font-size: 32px;
+    position: absolute;
+    top: 32px;
+    right: 120px;
+}
 #navbar .logo-navbar {
     padding-top: 20px;
 
@@ -249,10 +254,20 @@ article .posted-date {
     cursor: pointer;
 }
 
-.toggle-section {
+.qa-section {
     height: calc(100vh - 90px);
     background-color: #19355D;
-    padding-left: 150px !important;
+}
+
+.toggle-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.collpase-section {
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 .question {
@@ -261,8 +276,141 @@ article .posted-date {
     font-size: 13px;
     letter-spacing: 0.5px;
     line-height: 15px;
+    position: relative;
+    cursor: pointer;
 }
 
+.question .icon-Hartman-icons_arrow-down-bold {
+    position: absolute;
+    right: 0;
+}
+
+#response-1,
+#response-2,
+#response-3,
+#response-4,
+#response-5 {
+    display: none;
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.response {
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.follow {
+    background-color: #243F65;
+    height: calc(100vh - 90px);
+    padding-left: 60px !important;
+    padding-right: 150px !important;
+}
+
+.follow .title {
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-top: 45px !important;
+}
+
+.follow .social-media {
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 26px;
+    display: block;
+    margin-top: 23px;
+}
+
+.follow .social-media:hover {
+    opacity: 0.9;
+    text-decoration: none !important;
+}
+
+.mail-section {
+    margin-top: 50px;
+    border-top: 1px solid white;
+}
+
+.mail-section .mail-text {
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.mail-section .email-input {
+    color: #19355D;
+    font-family: 'gilroy';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    line-height: 19px;
+    padding-left: 15px;
+    height: 40px;
+    width: 80%;
+    float: left;
+}
+.mail-section .email-submit-btn{
+    width: 18%;
+    float: left;
+    height: 40px;
+    margin-left: 1px;
+    background-color: #FFFFFF;
+    border: 1px;
+    font-family: 'gilroy';
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+#navbar .footer{
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-color: #334B6F;
+    width: 100%;
+   
+}
+#navbar .footer .footer-link{
+    line-height: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar .footer .footer-link a{
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: 25px;
+    
+}
+#navbar .footer .footer-link .reserved{
+    opacity: 0.6;
+    color: #FFFFFF;
+    font-family: 'gilroy';
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 20%;
+}
 /* end navbar */
 
 
