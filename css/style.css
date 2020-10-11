@@ -2,6 +2,249 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+#first-section {
+    height: 800px;
+    background-image: url('../img/cover-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 300px;
+    /* background: ; */
+}
+
+#first-section .opacity {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(209.26deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+#first-section header {
+    padding-left: 21px;
+    padding-top: 20px;
+    padding-right: 29px;
+    display: flex;
+    position: relative;
+    z-index: 99999;
+}
+
+header .lang {
+    color: #FFFFFF;
+    line-height: 32px;
+    font-size: 16px;
+    padding-right: 18px;
+}
+
+header .icon {
+    height: 35px;
+    width: 37px;
+    color: #FFFFFF;
+    font-family: Hartman;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+}
+.icon{
+    cursor: pointer;
+}
+#first-section article {
+    background-color: #001F4C;
+    /* height: 376px; */
+    width: 81%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+}
+
+article .tag {
+    color: #000000;
+    font-family: Gilroy, Arial;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.75px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+
+article .title {
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 33.6px;
+}
+
+article .description {
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-bottom: 42px;
+}
+
+article .posted-by {
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: center;
+}
+
+article .posted-date {
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.shared-section {
+    text-align: center;
+}
+
+.shared-section .icon {
+    color: #0089CE;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-right: 20px;
+}
+
+.shared-section .icon-like {
+    color: black;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.shared-section .backslash {
+    opacity: 0.25;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+.shared-section .like-icon-number {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 14px;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    text-align: left;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.divider-line {
+    height: 2px;
+    width: 80%;
+    background-color: #F5F6F8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+
+/* navbar */
+#navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999999;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: none;
+}
+
+#navbar header {
+    height: 90px;
+    background-color: #001F4C;
+    padding-left: 21px;
+    display: flex;
+}
+#navbar .logo-navbar{
+    padding-top: 20px;
+
+}
+
+#navbar .close-navbar {
+    height: 90px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#navbar .close-navbar .icon-Hartman-icons_Close{
+    color: #FFFFFF;
+    font-size: 32px;
+    letter-spacing: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.toggle-section{
+    height: calc(100vh - 90px);
+    background-color: #19355D;
+    padding-left: 150px !important;
+}
+.question{
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+}
+/* end navbar */
+
+
 .row::after {
     content: "";
     clear: both;
@@ -16,24 +259,60 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-     /* For desktop: */
-     .col-d-1 {
+
+    /* For desktop: */
+    .col-d-1 {
         width: 8.33%;
     }
 
@@ -84,10 +363,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-   
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}

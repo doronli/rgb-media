@@ -1,4 +1,9 @@
 window.addEventListener('load', function() {
     console.log('All assets are loaded');
 });
-console.log("test");
+$("#icon-menu").click(function(){
+    $("#navbar").toggle(500);
+});
+$("#close-navbar").click(function(){
+    $("#navbar").toggle(500);
+});
