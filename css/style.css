@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url("fonts/gilroy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'gilroy-light';
+    src: url("fonts/gilroy-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url("fonts/gilroy-bold.otf") format("opentype");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -51,9 +66,11 @@ header .icon {
     line-height: 32px;
     text-align: center;
 }
-.icon{
+
+.icon {
     cursor: pointer;
 }
+
 #first-section article {
     background-color: #001F4C;
     /* height: 376px; */
@@ -208,7 +225,8 @@ article .posted-date {
     padding-left: 21px;
     display: flex;
 }
-#navbar .logo-navbar{
+
+#navbar .logo-navbar {
     padding-top: 20px;
 
 }
@@ -218,7 +236,8 @@ article .posted-date {
     width: 90px;
     background-color: rgba(255, 255, 255, 0.2);
 }
-#navbar .close-navbar .icon-Hartman-icons_Close{
+
+#navbar .close-navbar .icon-Hartman-icons_Close {
     color: #FFFFFF;
     font-size: 32px;
     letter-spacing: 0;
@@ -230,18 +249,20 @@ article .posted-date {
     cursor: pointer;
 }
 
-.toggle-section{
+.toggle-section {
     height: calc(100vh - 90px);
     background-color: #19355D;
     padding-left: 150px !important;
 }
-.question{
+
+.question {
     color: #FFFFFF;
     font-family: Gilroy;
     font-size: 13px;
     letter-spacing: 0.5px;
     line-height: 15px;
 }
+
 /* end navbar */
 
 
