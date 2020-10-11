@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'gilroy';
     src: url("fonts/gilroy.otf") format("opentype");
 }
 
@@ -87,7 +87,7 @@ header .icon {
 
 article .tag {
     color: #000000;
-    font-family: Gilroy, Arial;
+    font-family: 'gilroy-bold', Arial;
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 0.75px;
@@ -99,7 +99,7 @@ article .tag {
 
 article .title {
     color: #FFFFFF;
-    font-family: Gilroy;
+    font-family: 'gilroy-bold', Arial;
     font-size: 80px;
     font-weight: bold;
     letter-spacing: -1px;
@@ -110,7 +110,7 @@ article .title {
 
 article .description {
     color: #FFFFFF;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 22px;
     letter-spacing: 0;
     line-height: 32px;
@@ -122,7 +122,7 @@ article .description {
 
 article .posted-by {
     color: #FFFFFF;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -132,7 +132,7 @@ article .posted-by {
 
 article .posted-date {
     color: #FFFFFF;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 18px;
@@ -168,7 +168,7 @@ article .posted-date {
 .shared-section .backslash {
     opacity: 0.25;
     color: #000000;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 34px;
     font-weight: 500;
     line-height: 32px;
@@ -177,7 +177,7 @@ article .posted-date {
 
 .shared-section .like-icon-number {
     color: #000000;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -257,7 +257,7 @@ article .posted-date {
 
 .question {
     color: #FFFFFF;
-    font-family: Gilroy;
+    font-family: 'gilroy', Arial;
     font-size: 13px;
     letter-spacing: 0.5px;
     line-height: 15px;
